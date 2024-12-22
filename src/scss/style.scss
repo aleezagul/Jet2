@@ -162,7 +162,7 @@ i {
 }
 //navigation wrapper
 .navigation-wrapper {
-  background-color: #fff;
+  background-color: #cbea19;
   display: flex;
   align-items: center;
   padding: 5px 10px;
@@ -1095,7 +1095,7 @@ form {
   display: none;
 }
 
-//media queries
+/*media queries
 
 @media screen and (max-width: 812px) {
   .hub-wrapper {
@@ -1231,3 +1231,22 @@ flex-direction: column;
   justify-content: center;
   gap: 10px;
 }
+*/
+
+@media screen and (min-width:786px){
+
+body{
+  background-color: #9db320;
+}
+
+.hub-wrapper{
+  background-color: #4715c6;
+}
+
+.navigation-wrapper{
+  background-color: yellowgreen;
+}
+
+}
+
+
